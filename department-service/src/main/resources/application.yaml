@@ -1,5 +1,4 @@
 spring:
-  application:
-    name: department-service
+  application.name: department-service
   config:
     import: "optional:configserver:http://localhost:8080"
